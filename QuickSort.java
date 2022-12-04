@@ -13,7 +13,7 @@ public class QuickSort {
     private static void quickSort(int[] array, int low, int high) {
 
         if (low < high) {
-            int index = getPartition(array, low, high);
+            int index = partition(array, low, high);
             quickSort(array, low, index - 1);
             quickSort(array, index + 1, high);
 
@@ -21,7 +21,7 @@ public class QuickSort {
 
     }
 
-    private static int getPartition(int[] array, int low, int high) {
+    private static int partition(int[] array, int low, int high) {
 
         int pivot = array[high];
         //i as a marker for lower subarray
