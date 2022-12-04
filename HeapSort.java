@@ -50,7 +50,7 @@ public class HeapSort {
             array[i] = array[largest];
             array[largest] = temp;
 
-            maxHeapify(array, n, largest);
+            maxHeapify(array, n, largest); 
         }
     }
 
