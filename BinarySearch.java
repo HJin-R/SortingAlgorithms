@@ -1,4 +1,4 @@
-//Java implement of binary search
+//Java implementation of binary search
 public class BinarySearch {
 
     //search an item in the sorted array
