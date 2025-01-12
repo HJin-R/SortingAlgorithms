@@ -34,7 +34,7 @@ Repeat until the array is sorted.<br/>
 Time Complexity:
 
 Best case: 𝑂(𝑛)(when the array is already sorted).<br/>
-Worst and average case: 𝑂(𝑛^2)<br/>
+Worst and average case: 𝑂(𝑛<sup>2</sup>)<br/>
 Space Complexity: 𝑂(1)
 
 
@@ -63,7 +63,7 @@ Repeat for all elements.
 
 Time Complexity:
 Best case: 𝑂(𝑛) (when the array is already sorted)<br/>
-Worst and average case: 𝑂(𝑛^2)<br/>
+Worst and average case: 𝑂(𝑛<sup>2</sup>)<br/>
 Space Complexity: 𝑂(1)
 
 ### 5. Merge Sort
@@ -88,7 +88,7 @@ Recursively apply Quick Sort to the partitions.<br/>
 
 Time Complexity:
 Best and average case: 𝑂(𝑛log𝑛) <br/>
-Worst case:  𝑂(𝑛^2)<br/>
+Worst case:  𝑂(𝑛<sup>2</sup>)<br/>
 Space Complexity: 𝑂(log𝑛)
 
 
@@ -101,7 +101,7 @@ Swap it with the first unsorted element.
 Repeat for all elements.<br/>
 
 Time Complexity:
-Best, worst, and average case:  𝑂(𝑛^2)<br/>
+Best, worst, and average case:  𝑂(𝑛<sup>2</sup>)<br/>
 Space Complexity: Space Complexity: 𝑂(1)
 
 
